@@ -1,0 +1,27 @@
+button {
+    background-color: #bce784;
+    border: none;
+    box-shadow: 0 0 0 2px #fff;
+    color: #301c00;
+    font-family: 'DM Mono', monospace;
+    font-size: 1rem;
+    height: 40px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    background-color: #679436;
+    box-shadow: 0 0 0 2px #fff inset;
+    color: #fff;
+}
+
+button.selected {
+    background-color: #679436;
+    box-shadow: 0 0 0 2px #fff inset;
+    color: #fff;
+}

@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Board from './Board';
+import MineSweeper from './components/MineSweeper';
 
 ReactDOM.render(
-    <Board minesQuantity={100} boardWidth={20} boardHeight={20} squareWidth={30}/>,
+    <MineSweeper boardWidth={20} boardHeight={20}/>,
     document.getElementById("root")
 )
